@@ -43,7 +43,7 @@ main .header img {
   display: flex;
   flex-direction: column;
   font-size: 1.6rem;
-  width: 500px;
+  /* width: 500px; */
   padding: 2rem;
   color: #fff;
   margin-top: 3rem;
@@ -54,12 +54,14 @@ main .header img {
 .text-content h1 {
   font-size: 3.4rem;
   line-height: 4rem;
+  width: 40rem;
 }
 
 .text-content p {
   opacity: 0.9;
   line-height: 2.5rem;
   font-family: "Open Sans", sans-serif;
+  width: 46rem;
 }
 
 .text-content a {
@@ -68,7 +70,7 @@ main .header img {
   background: #fff;
   padding: 1rem;
   text-align: center;
-  width: 35%;
+  width: 20rem;
   border-radius: 2.5rem;
   transition: all 1s ease;
 }
@@ -93,12 +95,9 @@ main .header img {
   padding: 1rem;
   cursor: pointer;
   transition: all 1s ease;
-
 }
 
-.footer-img img:hover{
-    border: 0.2rem solid hsl(300, 69%, 71%);
-    background:  hsl(300, 69%, 71%);
-    ;
+.footer-img img:hover {
+  border: 0.2rem solid hsl(300, 69%, 71%);
+  background: hsl(300, 69%, 71%);
 }
-
