@@ -43,7 +43,6 @@ main .header img {
   display: flex;
   flex-direction: column;
   font-size: 1.6rem;
-  /* width: 500px; */
   padding: 2rem;
   color: #fff;
   margin-top: 3rem;
@@ -59,7 +58,7 @@ main .header img {
 
 .text-content p {
   opacity: 0.9;
-  line-height: 2.5rem; 
+  line-height: 2.5rem;
   font-family: "Open Sans", sans-serif;
   width: 46rem;
 }
@@ -100,4 +99,45 @@ main .header img {
 .footer-img img:hover {
   border: 0.2rem solid hsl(300, 69%, 71%);
   background: hsl(300, 69%, 71%);
+}
+
+@media (max-width: 1024px) {
+  :root {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 912px) {
+  .img-main img {
+    width: 60rem;
+  }
+}
+
+@media (max-width: 600px) {
+  main .header img {
+    width: 20rem;
+    margin-bottom: 10rem;
+  }
+
+  .img-main img {
+    width: 40rem;
+  }
+
+  .content-main {
+    flex-direction: column;
+  }
+
+  .text-content {
+    margin: auto;
+    text-align: center;
+    align-items: center;
+  }
+
+  .text-content h1 {
+    width: 40rem;
+  }
+
+  .text-content p {
+    width: 30rem;
+  }
 }
